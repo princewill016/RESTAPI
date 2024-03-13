@@ -11,7 +11,7 @@ public class StudentService {
         return List.of(
                 new Student(
                         1L,
-                        "david peter",
+                        "david peter ",
                         "princewill016@gmail.com",
                         LocalDate.of(2000, 05, 22),
                         21
