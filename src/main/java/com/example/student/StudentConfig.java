@@ -23,7 +23,7 @@ public class StudentConfig {
                                         " ruth2022@yahoo.com",
                                         LocalDate.of(1967, 8, 17));
                         Student Bright = new Student(
-                                        "Ibizugbe",
+                                        "Ibizugbe", 
                                         " Bpeter1999@yahoo.com",
                                         LocalDate.of(1997, 5, 17));
                         Student David = new Student(
