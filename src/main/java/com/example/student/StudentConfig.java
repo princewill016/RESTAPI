@@ -1,7 +1,7 @@
 package com.example.student;
 
 import java.time.LocalDate;
-import java.util.List;
+import java.util.*;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class StudentConfig {
 
+        @SuppressWarnings("null")
         @Bean
         CommandLineRunner commandLineRunner(StudentRepository repository) {
                 return args -> {
